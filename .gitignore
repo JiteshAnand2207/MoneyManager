@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Build and packaging output
+dist/
+dist-ssr/
+release/
+out/
+
+# Test and coverage output
+coverage/
+test-results/
+playwright-report/
+*.lcov
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+electron-builder.env
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.tmp/
+tmp/
+*.tmp
+*.bak
+
+# TypeScript/tool caches
+*.tsbuildinfo
+.eslintcache
+.vite/
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
